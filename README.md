@@ -1,18 +1,22 @@
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/Images/BannerNew.png" />
+# Criminal Management System
+
 
 ## Abstract
-<p>
-  Criminal record generally contains personal information about particular person
+<table>
+  <tr>
+    <td align="justify">Criminal record generally contains personal information about particular person
 along with photograph. To identify any Criminal we need some identification
 regarding person. We are developing this software to make this process easier
 than the traditional storage systems. In the modern era when everything is
 computerized, a Criminal Management system is very much in need so as to store
-data of dangerous criminals. 
-</p>
+data of dangerous criminals. </td>
+    <td><img src="https://user-images.githubusercontent.com/101894323/159948885-3b17301b-0829-4dec-8ab6-b5f226072e35.jpg" /></td>
+   </tr>
+</table>
 
 ## Introduction
 ### Purpose of this project
-<p>
+<p align="justify">
   The main purpose of our project is automating the traditional way of storing criminal records.
 Here, we could add, update and delete criminal records. We could also add, update and delete
 FIR details which are being filed down manually traditionally. We store all the data into a
@@ -21,47 +25,30 @@ interface for the officials to store and manage the criminal records.
 </p>
 
 ### Project Objective
-<p>
+<p align="justify">
   This project intends to provide an effective way for storing, retrieving and managing criminal
 records. It also aims at providing a user friendly interface for effortless interaction with the
 user. 
 </p>
 
 ### Project Scope
-<p>
+<p align="justify">
   This project is confined to storing, retrieving and managing criminal records. In further
 developments of the project, we could integrate it with AI and make features such as face
 detections.
 </p>
 
-## UML Diagram
-For UML Digram Click -> <a href="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/UML%20Diagram/UML.pdf">UML Diagram</a>
+## Diagrams
+[UML Diagram](https://github.com/Anushka-Nambiar/Criminal-Management-System/blob/master/UML%20Diagram/UML.pdf)
 
-## ER Diagram
-For ER Diagram Click -> <a href="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/ER%20Diagram/ER%20Diagram%20-%20Criminal%20Management%20System.png">ER Diagram</a>
-
-## Technology Used
-### IDE:
-- ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
-- ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-- ![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
-
-### Language:
-- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-
-### Frame-Work:
-- ![Gradle](https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
-
-
-### Database:
-- ![Database](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+[ER Diagram](https://github.com/Anushka-Nambiar/Criminal-Management-System/blob/master/ER%20Diagram/ER%20Diagram%20-%20Criminal%20Management%20System.png)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/Kumar-laxmi/Criminal-Management-System
+  git clone https://github.com/Anushka-Nambiar/Criminal-Management-System
 ```
 
 Go to the project directory
@@ -76,77 +63,6 @@ Run the application
   javac LogIn.java
 ```
 
-## Contributors
-- Kumar Laxmikant (myself)
-- Anushka Nambiar
-- Aniket Gupta
-- Aditya Bansal
 
-## Output Screen-Shots:
-When the application is executed then LogIn Screen pops-up prompting for authentication
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/LogIn.png" />
-
-There are two options to Log In <br/> Either as an Admin or as an Operator
-If we choose Administrator Radio-Button and give:
-Username:
-
-    admin
-
-Password: 
-   
-    admin123
-
-This will lead to Administrator Page
-And the Page would look like this 
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/Admin1.png" />
-###  NOTE: On clicking Home button you will be redirected to default admin page above
-
-An admin has full authority to make changes in FIR and Criminal Record as well as Operator Record
-- An Admin can Add, View, Delete and Update Operator record as well as FIR & Criminal Record.
-- There is only one admin and multiple operators can exist.
-
-To add new Operator, Click **Add Operator**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorAdd.png" />
-
-To update existing Operator, Click **Update Operator**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorUpdate.png" />
-
-To view existing Operator, Click **View Operator**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorView.png" />
-
-To delete existing Operator, Click **Delete Operator**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorDelete.png" />
-
-To Enter/Register a new FIR, click **Register FIR**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/RegisterFIR.png" />
-
-To view/retreive a FIR, click **Retrieve FIR**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/ViewFIR.png" />
-
-To update existing FIR, click **Update FIR**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/UpdateFIR.png" />
-
-To delete exisiting FIR, click **Delete FIR**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/DeleteFIR.png" />
-
-#### ==> If Admin wants to access only the Criminal Data instead of the FIR Data, that is also possible
-
-To View/Retrieve Criminal Data, click **Retrieve Criminal**
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/RetrieveCriminal.png" />
-
-To Update existing Criminal Data, click **Update Criminal**
-#### NOTE: Any change in Criminal Data also effects FIR Details pertaining to the Criminal
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/UpdateCriminal.png" />
-
-To Delete existing Criminal Data, click **Delete Criminal**
-#### NOTE: Any change in Criminal Data also effects FIR Details pertaining to the Criminal
-##### CAUTION: This action will cause deletion of FIR pertaining to that particular Criminal
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/DeleteCriminal.png" />
-
-### If we Login into the application as an Operator then the UI would appear like this:
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorPage.png" />
-
-As an Operator, we can retrieve/view a FIR Information:
-<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/RetrieveFIR_OPERATORPAGE.png" />
 
 ### For Detailed Report: <a href="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/REPORT/Team%20-%202.pdf">Click Here</a>
